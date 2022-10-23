@@ -4,8 +4,8 @@
   "pattern":
   [
     " 2 ",
-    "212",
-    " 2 "
+    "213",
+    " 3 "
   ],
 
   "key":
@@ -17,13 +17,17 @@
     "2":
     {
       "item": "thebetweenlands:items_plant_drop",
-      "data": 7
+      "data": 30
+    },
+    "3": {
+      "item": "thebetweenlands:items_misc",
+      "data": 2
     }
   },
 
   "result":
   {
-    "item": "thebetweenlands:the_explorer",
+    "item": "thebetweenlands:hag_dance",
     "count": 1
   }
 }
