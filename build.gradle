@@ -68,6 +68,7 @@ dependencies {
     //Utility
     implementation fg.deobf("curse.maven:iron-chests-228756:2747935")
     implementation fg.deobf("curse.maven:projectex-311378:3014173")
+    implementation fg.deobf("curse.maven:tinkers-construct-74072:2902483")
 
     //Venture
     implementation fg.deobf("curse.maven:the-twilight-forest-227639:3051450")
