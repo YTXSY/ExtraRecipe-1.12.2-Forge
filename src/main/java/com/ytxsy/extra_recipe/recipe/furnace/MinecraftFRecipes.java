@@ -1,4 +1,4 @@
-package com.ytxsy.extra_recipe.recipe;
+package com.ytxsy.extra_recipe.recipe.furnace;
 
 import com.ytxsy.extra_recipe.item.ModItems;
 import net.minecraft.init.Blocks;
@@ -8,7 +8,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 import thebetweenlands.common.registries.ItemRegistry;
 import twilightforest.block.TFBlocks;
 
-public class MinecraftRecipes
+public class MinecraftFRecipes
 {
     public static void init() {
         //GameRegistry.addSmelting(new ItemStack(111.222, amount, meta), new ItemStack(111.222, amount, meta), 3f);

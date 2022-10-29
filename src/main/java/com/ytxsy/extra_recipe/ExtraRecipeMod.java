@@ -2,16 +2,14 @@ package com.ytxsy.extra_recipe;
 
 import com.ytxsy.extra_recipe.init.ModOreDict;
 import com.ytxsy.extra_recipe.proxy.CommonProxy;
-import com.ytxsy.extra_recipe.recipe.MinecraftRecipes;
-import com.ytxsy.extra_recipe.recipe.Recipes;
-import com.ytxsy.extra_recipe.recipe.Record;
+import com.ytxsy.extra_recipe.recipe.furnace.MinecraftFRecipes;
+import com.ytxsy.extra_recipe.recipe.furnace.FRecipes;
+import com.ytxsy.extra_recipe.recipe.furnace.RecordFRecipe;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import org.apache.logging.log4j.Logger;
-
-//To let the player be a traveling god who plays yin-yang magic.
 
 @Mod(
         modid = Reference.MODID,
@@ -29,9 +27,9 @@ public class ExtraRecipeMod {
     @EventHandler
     public static void Init(FMLInitializationEvent event) {
         //SmeltRecipe
-        Recipes.init();
-        Record.init();
-        MinecraftRecipes.init();
+        FRecipes.init();
+        RecordFRecipe.init();
+        MinecraftFRecipes.init();
 
         ModOreDict.init();
 
