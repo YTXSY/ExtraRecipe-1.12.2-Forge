@@ -14,4 +14,5 @@ public class ModItems {
     //Misc
     public static final Item RECORD_BLANK = new ItemBLRecord(ModSound.RECORD_BLANK, true);
     public static final Item WIP_MATTER = new ItemBase("wip_matter");
+//    public static final Item TRANSFORMATION_TOOL = new ItemBase("transformation_tool");
 }
