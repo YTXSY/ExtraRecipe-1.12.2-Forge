@@ -81,10 +81,14 @@ dependencies {
     //Magic
     implementation fg.deobf("curse.maven:projecte-226410:2702991")
     implementation fg.deobf("curse.maven:emc-baubles-399700:3021747")
+    implementation fg.deobf("curse.maven:pewter-293938:2652196")
 
     //Libs
     implementation fg.deobf("curse.maven:endercore-231868:2972849")
     implementation fg.deobf("curse.maven:baubles-227083:2518667")
+    implementation fg.deobf("curse.maven:mantle-74924:2713386")
+    implementation fg.deobf("curse.maven:shadowfacts-forgelin-248453:2785465")
+
 }
 
 // Example for how to get properties into the manifest for reading by the runtime..
