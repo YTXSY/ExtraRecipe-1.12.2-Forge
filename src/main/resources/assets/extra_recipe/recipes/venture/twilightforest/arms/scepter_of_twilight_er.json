@@ -12,8 +12,8 @@
   {
     "1":
     {
-      "type": "forge:ore_dict",
-      "ore": "enderpearl"
+      "item": "twilightforest:trophy",
+        "data": 1
     },
     "2":
     {

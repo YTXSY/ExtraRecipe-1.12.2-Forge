@@ -12,8 +12,7 @@
   {
     "1":
     {
-      "type": "forge:ore_dict",
-      "ore": "stickWood"
+      "item": "minecraft:golden_sword"
     },
     "2":
     {
