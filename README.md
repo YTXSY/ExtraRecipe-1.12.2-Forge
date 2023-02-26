@@ -1,1 +1,1 @@
-# [latest](https://github.com/RawDiamondMC/ExtraRecipe)
+# [go here for the latest source](https://github.com/RawDiamondMC/ExtraRecipe)
